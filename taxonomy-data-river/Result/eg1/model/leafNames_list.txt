@@ -1,0 +1,49 @@
+0	net borrower
+1	activity charge
+2	restructuring charge
+3	administrative charge
+4	finance charge
+5	fixed charge
+6	finance charge--fixed charge
+7	jurisdiction risk
+8	legal list
+9	foreclosure
+10	insurance
+11	foreclosure--insurance
+12	legal list--11
+13	security
+14	debt
+15	repayment
+16	foreclosure fcl
+17	repayment--foreclosure fcl
+18	cash charge
+19	management tenure
+20	cash charge--management tenure
+21	surcharge
+22	switching costs
+23	mortgage broker
+24	mortgagor
+25	lender
+26	financial advisor
+27	real estate
+28	financial advisor--real estate
+29	lender--28
+30	mortgagor--29
+31	amount realized
+32	foreclosure action
+33	amount realized--foreclosure action
+34	30--33
+35	mortgage broker--34
+36	switching costs--35
+37	surcharge--36
+38	20--37
+39	17--38
+40	debt--39
+41	security--40
+42	12--41
+43	jurisdiction risk--42
+44	6--43
+45	administrative charge--44
+46	restructuring charge--45
+47	activity charge--46
+48	net borrower--47

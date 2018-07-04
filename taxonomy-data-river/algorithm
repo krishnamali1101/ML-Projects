@@ -1,0 +1,115 @@
+Taxonomy(part of data river project)
+
+- create empty dict of topics_description_dict
+- If main.csv not exist:
+	- crawl provided directory and read all files one by one
+	 	- prepare data in topic-description format
+	 	- filter data
+	 	- add topics & description to topics_description_dict
+	- create main.csv & dump topics_description_dict to it & save it
+- else:
+	- load main.csv to topics_description_dict
+
+- create object of gensim_doc2veg with topics & description
+- if pre trained model not exist:	
+	- train gensim_doc2vec model 
+  else 
+	load existing gensim_doc2vec model
+
+- if doc-similarity_matrix.csv not exist:
+	- calculate doc-similarity_matrix & save it as csv file
+- if not doc_similarity_matrix
+	- load doc_similarity_matrix to memory
+- prepare taxonomy tree	#TODO
+	- if not child_parent map:
+		- create map of {child:Parent} (child will be key)
+			- fetch max similar tag/vector/doc from doc-similarity_matrix (find at the time of creating doc-similarity_matrix)
+		- save map
+	- else 
+		- load child_parent map
+	- create taxonomy tree (add child under particular parent)
+- display tree	#TODO
+
+=====================================================
+#TODO
+- create own tree
+	- list of nested nodes (root)
+	- dict = {nodename:address}
+	- find parent node address from dict to add new child under it
+	- 
+- think about modifying tree display
+- logging
+modify csv2dict & dict2csv functions to read just csv and do merge cell opration in texonomy.py file
+write to xl sim_mat
+calculate most sim list with sim_confidence 
+change method to calculate sim matrix (use dynamic programming)
+create clusters(unsuperwised) and plot it
+dont deal with tag words , use enum: while training, while other works
+use numpy matrix insted of nested list
+convert sim_mat to distance_mat and change variable & file names accordingly
+remove hardcoded file paths
+
+explore clustring algos:
+	k-means clustering
+		bad clusters, partitioning around medoids (pam) is better 
+		reason: k-means does not support distance matrixes. It never uses point-to-point distances. 		
+	UPGMA clustering
+		bad clusters, phierarchical clustering is better 
+		single linkage method or neighbour joining is often preferred above UPGMA in phylogenetic applications
+	k-medoids clustering
+	partitioning around medoids (pam)
+	agglomerative hierarchical 	clustering
+	hierarchical clustering
+		define the partitioning method properly
+		partitioning method: how the distances between observations and clusters are calculated
+			Ward's method
+			complete linkage
+			single linkage method
+			neighbour joining 
+		
+
+# remove hardcoaded path, use 2 path (sample data & actual data)
+# use enum
+# use numpy matrix
+	
+=====================================================
+#Run
+D:\Projects\Taxonomy_DataRiver>"c:Python35\python.exe" taxonomy_main.py
+
+cd D:\Projects\Taxonomy_DataRiver
+"c:Python35\python.exe" taxonomy_main.py>>log.log
+
+
+=====================================================
+Algo2- Taxonomy
+=====================================================
+- create empty dict of topics_description_dict
+- If main.csv not exist:
+	- crawl provided directory and read all files one by one
+	 	- prepare data in topic-description format
+	 	- filter data
+	 	- add topics & description to topics_description_dict
+	- create main.csv & dump topics_description_dict to it & save it
+- else:
+	- load main.csv to topics_description_dict
+
+- create object of gensim_doc2veg with topics & description
+- if pre trained model not exist:	
+	- train gensim_doc2vec model 
+  else 
+	load existing gensim_doc2vec model
+
+- if distance_matrix.csv not exist:
+	- calculate distance_matrix & save it as csv file
+- else
+	- load distance_matrix to memory
+	
+- prepare taxonomy tree
+	- if not child_parent map:
+		- create map of {child:Parent} (child will be key)
+			- fetch max similar tag/vector/doc from doc-similarity_matrix (find at the time of creating doc-similarity_matrix)
+		- save map
+	- else 
+		- load child_parent map
+	- create taxonomy tree (add child under particular parent)
+- display tree	#TODO

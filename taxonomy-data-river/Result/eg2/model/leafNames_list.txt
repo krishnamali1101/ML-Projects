@@ -1,0 +1,71 @@
+0	net borrower
+1	debt
+2	refinance
+3	administrative charge
+4	repayment
+5	foreclosure fcl
+6	repayment--foreclosure fcl
+7	cash charge
+8	management tenure
+9	cash charge--management tenure
+10	finance charge
+11	fixed charge
+12	finance charge--fixed charge
+13	amount realized
+14	insurance proceeds
+15	switching costs
+16	warranty deed
+17	foreclosure action
+18	foreclosure
+19	restructuring charge
+20	security
+21	valuation
+22	security--valuation
+23	restructuring charge--security--valuation
+24	surcharge
+25	mortgagor
+26	activity charge
+27	conveyance
+28	activity charge--conveyance
+29	mortgage insurance
+30	mortgage broker
+31	mortgage insurance--mortgage broker
+32	real estate
+33	lender
+34	financial advisor
+35	lender--financial advisor
+36	real estate--lender--financial advisor
+37	amount recognized
+38	hypothecation
+39	amount recognized--hypothecation
+40	real estate--lender--financial advisor--amount recognized--hypothecation
+41	mortgage insurance--mortgage broker--real estate--lender--financial advisor--amount recognized--hypothecation
+42	activity charge--conveyance--mortgage insurance--mortgage broker--real estate--lender--financial advisor--amount recognized--hypothecation
+43	mortgagor--activity charge--conveyance--mortgage insurance--mortgage broker--real estate--lender--financial advisor--amount recognized--hypothecation
+44	insurance
+45	jurisdiction risk
+46	material amount
+47	reversal amount
+48	material amount--reversal amount
+49	jurisdiction risk--material amount--reversal amount
+50	insurance--jurisdiction risk--material amount--reversal amount
+51	mortgagor--activity charge--conveyance--mortgage insurance--mortgage broker--real estate--lender--financial advisor--amount recognized--hypothecation--insurance--jurisdiction risk--material amount--reversal amount
+52	surcharge--mortgagor--activity charge--conveyance--mortgage insurance--mortgage broker--real estate--lender--financial advisor--amount recognized--hypothecation--insurance--jurisdiction risk--material amount--reversal amount
+53	restructuring charge--security--valuation--surcharge--mortgagor--activity charge--conveyance--mortgage insurance--mortgage broker--real estate--lender--financial advisor--amount recognized--hypothecation--insurance--jurisdiction risk--material amount--reversal amount
+54	foreclosure--restructuring charge--security--valuation--surcharge--mortgagor--activity charge--conveyance--mortgage insurance--mortgage broker--real estate--lender--financial advisor--amount recognized--hypothecation--insurance--jurisdiction risk--material amount--reversal amount
+55	foreclosure action--foreclosure--restructuring charge--security--valuation--surcharge--mortgagor--activity charge--conveyance--mortgage insurance--mortgage broker--real estate--lender--financial advisor--amount recognized--hypothecation--insurance--jurisdiction risk--material amount--reversal amount
+56	warranty deed--foreclosure action--foreclosure--restructuring charge--security--valuation--surcharge--mortgagor--activity charge--conveyance--mortgage insurance--mortgage broker--real estate--lender--financial advisor--amount recognized--hypothecation--insurance--jurisdiction risk--material amount--reversal amount
+57	switching costs--warranty deed--foreclosure action--foreclosure--restructuring charge--security--valuation--surcharge--mortgagor--activity charge--conveyance--mortgage insurance--mortgage broker--real estate--lender--financial advisor--amount recognized--hypothecation--insurance--jurisdiction risk--material amount--reversal amount
+58	insurance proceeds--switching costs--warranty deed--foreclosure action--foreclosure--restructuring charge--security--valuation--surcharge--mortgagor--activity charge--conveyance--mortgage insurance--mortgage broker--real estate--lender--financial advisor--amount recognized--hypothecation--insurance--jurisdiction risk--material amount--reversal amount
+59	amount realized--insurance proceeds--switching costs--warranty deed--foreclosure action--foreclosure--restructuring charge--security--valuation--surcharge--mortgagor--activity charge--conveyance--mortgage insurance--mortgage broker--real estate--lender--financial advisor--amount recognized--hypothecation--insurance--jurisdiction risk--material amount--reversal amount
+60	finance charge--fixed charge--amount realized--insurance proceeds--switching costs--warranty deed--foreclosure action--foreclosure--restructuring charge--security--valuation--surcharge--mortgagor--activity charge--conveyance--mortgage insurance--mortgage broker--real estate--lender--financial advisor--amount recognized--hypothecation--insurance--jurisdiction risk--material amount--reversal amount
+61	cash charge--management tenure--finance charge--fixed charge--amount realized--insurance proceeds--switching costs--warranty deed--foreclosure action--foreclosure--restructuring charge--security--valuation--surcharge--mortgagor--activity charge--conveyance--mortgage insurance--mortgage broker--real estate--lender--financial advisor--amount recognized--hypothecation--insurance--jurisdiction risk--material amount--reversal amount
+62	repayment--foreclosure fcl--cash charge--management tenure--finance charge--fixed charge--amount realized--insurance proceeds--switching costs--warranty deed--foreclosure action--foreclosure--restructuring charge--security--valuation--surcharge--mortgagor--activity charge--conveyance--mortgage insurance--mortgage broker--real estate--lender--financial advisor--amount recognized--hypothecation--insurance--jurisdiction risk--material amount--reversal amount
+63	principal
+64	legal list
+65	principal--legal list
+66	repayment--foreclosure fcl--cash charge--management tenure--finance charge--fixed charge--amount realized--insurance proceeds--switching costs--warranty deed--foreclosure action--foreclosure--restructuring charge--security--valuation--surcharge--mortgagor--activity charge--conveyance--mortgage insurance--mortgage broker--real estate--lender--financial advisor--amount recognized--hypothecation--insurance--jurisdiction risk--material amount--reversal amount--principal--legal list
+67	administrative charge--repayment--foreclosure fcl--cash charge--management tenure--finance charge--fixed charge--amount realized--insurance proceeds--switching costs--warranty deed--foreclosure action--foreclosure--restructuring charge--security--valuation--surcharge--mortgagor--activity charge--conveyance--mortgage insurance--mortgage broker--real estate--lender--financial advisor--amount recognized--hypothecation--insurance--jurisdiction risk--material amount--reversal amount--principal--legal list
+68	refinance--administrative charge--repayment--foreclosure fcl--cash charge--management tenure--finance charge--fixed charge--amount realized--insurance proceeds--switching costs--warranty deed--foreclosure action--foreclosure--restructuring charge--security--valuation--surcharge--mortgagor--activity charge--conveyance--mortgage insurance--mortgage broker--real estate--lender--financial advisor--amount recognized--hypothecation--insurance--jurisdiction risk--material amount--reversal amount--principal--legal list
+69	debt--refinance--administrative charge--repayment--foreclosure fcl--cash charge--management tenure--finance charge--fixed charge--amount realized--insurance proceeds--switching costs--warranty deed--foreclosure action--foreclosure--restructuring charge--security--valuation--surcharge--mortgagor--activity charge--conveyance--mortgage insurance--mortgage broker--real estate--lender--financial advisor--amount recognized--hypothecation--insurance--jurisdiction risk--material amount--reversal amount--principal--legal list
+70	net borrower--debt--refinance--administrative charge--repayment--foreclosure fcl--cash charge--management tenure--finance charge--fixed charge--amount realized--insurance proceeds--switching costs--warranty deed--foreclosure action--foreclosure--restructuring charge--security--valuation--surcharge--mortgagor--activity charge--conveyance--mortgage insurance--mortgage broker--real estate--lender--financial advisor--amount recognized--hypothecation--insurance--jurisdiction risk--material amount--reversal amount--principal--legal list

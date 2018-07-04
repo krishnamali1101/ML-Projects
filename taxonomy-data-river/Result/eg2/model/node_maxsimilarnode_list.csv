@@ -1,0 +1,36 @@
+foreclosure	37.911	hypothecation
+activity charge	34.378	conveyance
+security	33.378	valuation
+warranty deed	38.281	conveyance
+foreclosure action	38.082	mortgage broker
+finance charge	38.143	fixed charge
+insurance proceeds	38.678	mortgage insurance
+restructuring charge	34.369	valuation
+jurisdiction risk	34.103	material amount
+lender	30.468	financial advisor
+fixed charge	38.143	finance charge
+principal	39.305	legal list
+mortgage insurance	30.433	mortgage broker
+real estate	32.038	financial advisor
+material amount	33.037	reversal amount
+mortgagor	35.257	real estate
+amount recognized	32.228	hypothecation
+amount realized	38.833	mortgage broker
+cash charge	36.038	management tenure
+mortgage broker	30.433	mortgage insurance
+conveyance	34.378	activity charge
+valuation	33.378	security
+surcharge	36.703	jurisdiction risk
+legal list	39.305	principal
+debt	40.503	warranty deed
+repayment	37.738	foreclosure fcl
+switching costs	38.282	security
+reversal amount	33.037	material amount
+management tenure	36.038	cash charge
+net borrower	42.749	security
+refinance	39.735	insurance
+insurance	35.998	jurisdiction risk
+foreclosure fcl	37.738	repayment
+financial advisor	30.468	lender
+administrative charge	39.595	cash charge
+hypothecation	32.228	amount recognized

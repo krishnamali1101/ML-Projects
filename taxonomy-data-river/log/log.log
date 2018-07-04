@@ -1,0 +1,192 @@
+Loading exciting main.xls...
+Loaded Successfully!!
+
+Loading pre-trained doc2vec model...
+Error in loading model!!
+Training new doc2vec model...
+Completed pass 1 at alpha 0.025000
+Completed pass 2 at alpha 0.024748
+Completed pass 3 at alpha 0.024497
+Completed pass 4 at alpha 0.024245
+Completed pass 5 at alpha 0.023994
+Completed pass 6 at alpha 0.023742
+Completed pass 7 at alpha 0.023491
+Completed pass 8 at alpha 0.023239
+Completed pass 9 at alpha 0.022988
+Completed pass 10 at alpha 0.022736
+Completed pass 11 at alpha 0.022485
+Completed pass 12 at alpha 0.022233
+Completed pass 13 at alpha 0.021982
+Completed pass 14 at alpha 0.021730
+Completed pass 15 at alpha 0.021479
+Completed pass 16 at alpha 0.021227
+Completed pass 17 at alpha 0.020976
+Completed pass 18 at alpha 0.020724
+Completed pass 19 at alpha 0.020473
+Completed pass 20 at alpha 0.020221
+Completed pass 21 at alpha 0.019970
+Completed pass 22 at alpha 0.019718
+Completed pass 23 at alpha 0.019467
+Completed pass 24 at alpha 0.019215
+Completed pass 25 at alpha 0.018964
+Completed pass 26 at alpha 0.018712
+Completed pass 27 at alpha 0.018461
+Completed pass 28 at alpha 0.018209
+Completed pass 29 at alpha 0.017958
+Completed pass 30 at alpha 0.017706
+Completed pass 31 at alpha 0.017455
+Completed pass 32 at alpha 0.017203
+Completed pass 33 at alpha 0.016952
+Completed pass 34 at alpha 0.016700
+Completed pass 35 at alpha 0.016448
+Completed pass 36 at alpha 0.016197
+Completed pass 37 at alpha 0.015945
+Completed pass 38 at alpha 0.015694
+Completed pass 39 at alpha 0.015442
+Completed pass 40 at alpha 0.015191
+Completed pass 41 at alpha 0.014939
+Completed pass 42 at alpha 0.014688
+Completed pass 43 at alpha 0.014436
+Completed pass 44 at alpha 0.014185
+Completed pass 45 at alpha 0.013933
+Completed pass 46 at alpha 0.013682
+Completed pass 47 at alpha 0.013430
+Completed pass 48 at alpha 0.013179
+Completed pass 49 at alpha 0.012927
+Completed pass 50 at alpha 0.012676
+Completed pass 51 at alpha 0.012424
+Completed pass 52 at alpha 0.012173
+Completed pass 53 at alpha 0.011921
+Completed pass 54 at alpha 0.011670
+Completed pass 55 at alpha 0.011418
+Completed pass 56 at alpha 0.011167
+Completed pass 57 at alpha 0.010915
+Completed pass 58 at alpha 0.010664
+Completed pass 59 at alpha 0.010412
+Completed pass 60 at alpha 0.010161
+Completed pass 61 at alpha 0.009909
+Completed pass 62 at alpha 0.009658
+Completed pass 63 at alpha 0.009406
+Completed pass 64 at alpha 0.009155
+Completed pass 65 at alpha 0.008903
+Completed pass 66 at alpha 0.008652
+Completed pass 67 at alpha 0.008400
+Completed pass 68 at alpha 0.008148
+Completed pass 69 at alpha 0.007897
+Completed pass 70 at alpha 0.007645
+Completed pass 71 at alpha 0.007394
+Completed pass 72 at alpha 0.007142
+Completed pass 73 at alpha 0.006891
+Completed pass 74 at alpha 0.006639
+Completed pass 75 at alpha 0.006388
+Completed pass 76 at alpha 0.006136
+Completed pass 77 at alpha 0.005885
+Completed pass 78 at alpha 0.005633
+Completed pass 79 at alpha 0.005382
+Completed pass 80 at alpha 0.005130
+Completed pass 81 at alpha 0.004879
+Completed pass 82 at alpha 0.004627
+Completed pass 83 at alpha 0.004376
+Completed pass 84 at alpha 0.004124
+Completed pass 85 at alpha 0.003873
+Completed pass 86 at alpha 0.003621
+Completed pass 87 at alpha 0.003370
+Completed pass 88 at alpha 0.003118
+Completed pass 89 at alpha 0.002867
+Completed pass 90 at alpha 0.002615
+Completed pass 91 at alpha 0.002364
+Completed pass 92 at alpha 0.002112
+Completed pass 93 at alpha 0.001861
+Completed pass 94 at alpha 0.001609
+Completed pass 95 at alpha 0.001358
+Completed pass 96 at alpha 0.001106
+Completed pass 97 at alpha 0.000855
+Completed pass 98 at alpha 0.000603
+Completed pass 99 at alpha 0.000352
+Completed pass 100 at alpha 0.000100
+Successfully Trained!!
+
+Loading distance_matrix...
+
+Error while loading distance_matrix
+Creating new distance_matrix.xls...
+Processing RowNo  0  out-of  24
+Processing RowNo  1  out-of  24
+Processing RowNo  2  out-of  24
+Processing RowNo  3  out-of  24
+Processing RowNo  4  out-of  24
+Processing RowNo  5  out-of  24
+Processing RowNo  6  out-of  24
+Processing RowNo  7  out-of  24
+Processing RowNo  8  out-of  24
+Processing RowNo  9  out-of  24
+Processing RowNo  10  out-of  24
+Processing RowNo  11  out-of  24
+Processing RowNo  12  out-of  24
+Processing RowNo  13  out-of  24
+Processing RowNo  14  out-of  24
+Processing RowNo  15  out-of  24
+Processing RowNo  16  out-of  24
+Processing RowNo  17  out-of  24
+Processing RowNo  18  out-of  24
+Processing RowNo  19  out-of  24
+Processing RowNo  20  out-of  24
+Processing RowNo  21  out-of  24
+Processing RowNo  22  out-of  24
+Processing RowNo  23  out-of  24
+Saving Headers...
+Saving sim_mat...
+Processing RowNo  1  out-of  24
+Processing RowNo  2  out-of  24
+Processing RowNo  3  out-of  24
+Processing RowNo  4  out-of  24
+Processing RowNo  5  out-of  24
+Processing RowNo  6  out-of  24
+Processing RowNo  7  out-of  24
+Processing RowNo  8  out-of  24
+Processing RowNo  9  out-of  24
+Processing RowNo  10  out-of  24
+Processing RowNo  11  out-of  24
+Processing RowNo  12  out-of  24
+Processing RowNo  13  out-of  24
+Processing RowNo  14  out-of  24
+Processing RowNo  15  out-of  24
+Processing RowNo  16  out-of  24
+Processing RowNo  17  out-of  24
+Processing RowNo  18  out-of  24
+Processing RowNo  19  out-of  24
+Processing RowNo  20  out-of  24
+Processing RowNo  21  out-of  24
+Processing RowNo  22  out-of  24
+Processing RowNo  23  out-of  24
+Processing RowNo  24  out-of  24
+Created & Saved Successfully!!
+
+Loading node_maxsimilarnode_list...
+Creating new node_maxsimilarnode_list.xls...
+Created & Saved Successfully!!
+
+['electromegnitics', '38.115', 'physics']
+['apple', '29.592', 'fruits']
+['seafood', '36.28', 'fish']
+['outdoorgames', '40.712', 'electromegnitics']
+['chemistry', '30.333', 'nonvegetarianfood']
+['chicken', '39.108', 'electromegnitics']
+['medicin', '37.079', 'science']
+['carrom', '30.191', 'vegetariancuisine']
+['vegetariancuisine', '30.191', 'carrom']
+['indoorgames', '30.88', 'science']
+['banana', '29.156', 'physics']
+['vegitables', '33.287', 'football']
+['football', '33.287', 'vegitables']
+['game', '38.641', 'banana']
+['chemical', '35.976', 'carrom']
+['food', '44.361', 'chemical']
+['chess', '31.995', 'banana']
+['fish', '26.75', 'science']
+['science', '26.75', 'fish']
+['energy', '32.324', 'indoorgames']
+['physics', '29.156', 'banana']
+['nonvegetarianfood', '30.333', 'chemistry']
+['cricket', '36.896', 'chess']
+['fruits', '29.592', 'apple']

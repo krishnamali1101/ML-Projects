@@ -1,0 +1,225 @@
+{
+    "children": [
+        {
+            "children": [
+                {
+                    "children": [],
+                    "name": "net borrower"
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "name": "activity charge"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "name": "restructuring charge"
+                                },
+                                {
+                                    "children": [
+                                        {
+                                            "children": [],
+                                            "name": "administrative charge"
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "children": [
+                                                        {
+                                                            "children": [],
+                                                            "name": "finance charge"
+                                                        },
+                                                        {
+                                                            "children": [],
+                                                            "name": "fixed charge"
+                                                        }
+                                                    ],
+                                                    "name": "6"
+                                                },
+                                                {
+                                                    "children": [
+                                                        {
+                                                            "children": [],
+                                                            "name": "jurisdiction risk"
+                                                        },
+                                                        {
+                                                            "children": [
+                                                                {
+                                                                    "children": [
+                                                                        {
+                                                                            "children": [],
+                                                                            "name": "legal list"
+                                                                        },
+                                                                        {
+                                                                            "children": [
+                                                                                {
+                                                                                    "children": [],
+                                                                                    "name": "foreclosure"
+                                                                                },
+                                                                                {
+                                                                                    "children": [],
+                                                                                    "name": "insurance"
+                                                                                }
+                                                                            ],
+                                                                            "name": "11"
+                                                                        }
+                                                                    ],
+                                                                    "name": "12"
+                                                                },
+                                                                {
+                                                                    "children": [
+                                                                        {
+                                                                            "children": [],
+                                                                            "name": "security"
+                                                                        },
+                                                                        {
+                                                                            "children": [
+                                                                                {
+                                                                                    "children": [],
+                                                                                    "name": "debt"
+                                                                                },
+                                                                                {
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "children": [],
+                                                                                                    "name": "repayment"
+                                                                                                },
+                                                                                                {
+                                                                                                    "children": [],
+                                                                                                    "name": "foreclosure fcl"
+                                                                                                }
+                                                                                            ],
+                                                                                            "name": "17"
+                                                                                        },
+                                                                                        {
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "children": [
+                                                                                                        {
+                                                                                                            "children": [],
+                                                                                                            "name": "cash charge"
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "children": [],
+                                                                                                            "name": "management tenure"
+                                                                                                        }
+                                                                                                    ],
+                                                                                                    "name": "20"
+                                                                                                },
+                                                                                                {
+                                                                                                    "children": [
+                                                                                                        {
+                                                                                                            "children": [],
+                                                                                                            "name": "surcharge"
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "children": [
+                                                                                                                {
+                                                                                                                    "children": [],
+                                                                                                                    "name": "switching costs"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "children": [
+                                                                                                                        {
+                                                                                                                            "children": [],
+                                                                                                                            "name": "mortgage broker"
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "children": [
+                                                                                                                                {
+                                                                                                                                    "children": [
+                                                                                                                                        {
+                                                                                                                                            "children": [],
+                                                                                                                                            "name": "mortgagor"
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "children": [
+                                                                                                                                                {
+                                                                                                                                                    "children": [],
+                                                                                                                                                    "name": "lender"
+                                                                                                                                                },
+                                                                                                                                                {
+                                                                                                                                                    "children": [
+                                                                                                                                                        {
+                                                                                                                                                            "children": [],
+                                                                                                                                                            "name": "financial advisor"
+                                                                                                                                                        },
+                                                                                                                                                        {
+                                                                                                                                                            "children": [],
+                                                                                                                                                            "name": "real estate"
+                                                                                                                                                        }
+                                                                                                                                                    ],
+                                                                                                                                                    "name": "28"
+                                                                                                                                                }
+                                                                                                                                            ],
+                                                                                                                                            "name": "29"
+                                                                                                                                        }
+                                                                                                                                    ],
+                                                                                                                                    "name": "30"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "children": [
+                                                                                                                                        {
+                                                                                                                                            "children": [],
+                                                                                                                                            "name": "amount realized"
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "children": [],
+                                                                                                                                            "name": "foreclosure action"
+                                                                                                                                        }
+                                                                                                                                    ],
+                                                                                                                                    "name": "33"
+                                                                                                                                }
+                                                                                                                            ],
+                                                                                                                            "name": "34"
+                                                                                                                        }
+                                                                                                                    ],
+                                                                                                                    "name": "35"
+                                                                                                                }
+                                                                                                            ],
+                                                                                                            "name": "36"
+                                                                                                        }
+                                                                                                    ],
+                                                                                                    "name": "37"
+                                                                                                }
+                                                                                            ],
+                                                                                            "name": "38"
+                                                                                        }
+                                                                                    ],
+                                                                                    "name": "39"
+                                                                                }
+                                                                            ],
+                                                                            "name": "40"
+                                                                        }
+                                                                    ],
+                                                                    "name": "41"
+                                                                }
+                                                            ],
+                                                            "name": "42"
+                                                        }
+                                                    ],
+                                                    "name": "43"
+                                                }
+                                            ],
+                                            "name": "44"
+                                        }
+                                    ],
+                                    "name": "45"
+                                }
+                            ],
+                            "name": "46"
+                        }
+                    ],
+                    "name": "47"
+                }
+            ],
+            "name": "48"
+        }
+    ],
+    "name": "Root1"
+}
