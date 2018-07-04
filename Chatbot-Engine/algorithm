@@ -1,0 +1,171 @@
+NLPEngine1
+=============================================
+if pre trained_model:
+	load pre trained model from file
+else
+	train_model() on some operations & related sentences
+	    - extract intents from sentences
+	    - add new intents & operations to bot operations
+	    - save model
+read input
+set filters & filter text on that filters
+fetch_intents from input line
+fetch_operation() from intents(input line intents)
+	- extract intents from sentences
+	- if any of intents contains any operation name/its synonyms, then return that operation directly
+	- else calculate similarity using any w2v model
+	- if any intent is having >90% similarity score for any operation then vote for that operation and exit
+	- vote for best operation depending on avg similarity score for all intents, if no operation found return None
+	
+if operation found:
+	print that operation
+else:
+	ask to elaborate more or
+	ask to add_new_operation & retrain_model
+	provide suggestion of intents 
+	save model
+exit
+
+=============================================
+
+Points:
+	some default operations are used to train bot
+	w2v model is loading on demand to save memory(delay loader)
+	using 2 threshold
+        similarity_score = 60.0%
+        confidence_similarity_score = 90.0%
+	to add new operation either directly provide intents or provide sentences
+=============================================
+
+Test input:
+i want to create new bot
+can i have a new bot
+
+=============================================
+
+TODO:
+	- test on synonyms
+	- test w2v similarity
+	- test train model
+	- model is loding every time (it should be in memory once loaded)
+	- add entity also 
+	- change pos tagging methon , use diffrent lib 
+	- add new opration to its list
+	- remove q for quit(enter for quit)
+	
+	- train based on just sentences not on intents 
+	- store filtered sent not intents
+	- suggest sentence based on synonyms technique 
+	- calculate cosign dist between input sent vec & existing sent vector (opration sent) not with 
+===============================================
+
+Run:
+D:\Projects\chatbot\NLPEngine2\NLPEngine.py
+
+
+===============================================
+NLPEngine2 (Updated Algo):
+===============================================
+create vocab
+if pre trained_model:
+	load pre trained model from file
+else
+	train_model() on some operations & related sentences
+	    - extract intents from sentences
+	    - add new intents & operations to bot operations
+	    - save model
+read input
+set filters & filter text on that filters
+fetch_intents from input line
+fetch_operation() from intents(input line intents)
+	- extract intents from sentences
+	- if any of intents contains any operation name/its synonyms, then return that operation directly
+	- else calculate similarity using any w2v model
+	- if any intent is having >90% similarity score for any operation then vote for that operation and exit
+	- vote for best operation depending on avg similarity score for all intents, if no operation found return None
+	
+if operation found:
+	print that operation
+else:
+	ask to elaborate more or
+	ask to add_new_operation & retrain_model
+	provide suggestion of intents 
+	save model
+exit
+================================================
+
+create
+	'i want to create new bot.',
+	'may i have new bot.',
+    'make a new bot',
+    'produce a new bot',
+    'i want a new bot.',
+update 
+    'update bot',
+    'update this bot',
+    'change bot name',
+    'change bot id.',
+    'modify bot name',
+    'can you modify bot name',
+    'edit bot information',
+    'update bot information',
+delete  
+    'erase all existing data',
+    'delete my bot',
+    'i want to delete this bot',
+    'can you delete this bot',
+    'remove this bot',
+deploy
+    'deploy my bot',
+    'i want to deploy this bot',
+    'how can i deploy this bot',
+
+===============================================
+NLPEngine3 (Updated Algo):
+===============================================
+    set filters
+    if pre trained_model:
+        load pre trained gensim_doc2vec model & map {operation-intents}
+    else
+        train_model() on some operations & related sentences
+            - filter text on that filters
+            - extract intents from sentences
+            - add new intents & operations to bot operations
+            - create operation-description(all sentences related to 1 operation in one line) map
+            - train gensim_doc2vec model
+            - save 
+				gensim_doc2vec model 
+				operation-intents_list map
+				operation-sentences_list map
+
+    read input line
+
+    fetch_operation() for input line
+        - filter text on that filters
+        - extract intents from sentences
+        - if any of intents contains any operation name/its synonyms,
+            - return that operation directly
+        - else
+            - create new model object; model = Doc2Vec()
+              model.train_doc2vec_model() on filtered line( operation: None; description: line) ie. {None: line})
+            - operation, similarity_percentage = main_model.fetch_similar_vector_with_similarity(model)
+            - if operation is having >60% similarity score for that operation: (similarity_score = 60% confidence_similarity_score =90%)
+                return operation
+            - else:
+                  return None
+
+    if operation found:
+        print that operation
+    else:
+        ask to elaborate more or
+        ask to add_new_operation
+        Find synonyms & some example sentences
+        ask user to select or provide some related intents & sentences
+        set new operation & intents & Retrain_model
+        save gensim_doc2vec model & tag-intents map
+    exit
+================================================
+Other points for NLPEngine3:
+	bot_operations.xls
+		{ bot_operations: [['intent1', 'intent2', ...], 'sent1', 'sent2', ...]}
+	

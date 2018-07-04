@@ -1,0 +1,85 @@
+Just concentrate on intent(verb)
+Default Bot operations: ["create", "update", "delete", "deploy"]
+train bot on default boy operations (may be on synonyms)
+save trained model
+test bot on multiple lines
+Add new bot operations dynamically
+train bot on new operations
+Test bot
+
+
+study
+WUP
+glove
+
+create dict of "operation": [synonyms] of all operations
+read urser input (usr_input)
+filter & pos tag
+extract intents [intents]
+if any intent exist directly in [intents] thn call that operation
+else get synonyms of all [intents]
+get union of all <intents> with available operations synonyms
+Apply threshold
+[intent1]
+	"create" : 
+		- calculate cosign similarity with "create" using google_w2v model
+		- calculate union of that intent synonyms & create synonyms
+		- fetch combined similarity
+	"update" :
+		-
+		-
+	....
+[intent2]
+	"create" : 
+		- calculate cosign similarity with "create" using google_w2v model
+		- calculate union of that intent synonyms & create synonyms
+		- fetch combined similarity
+	"update" :
+		-
+		-
+	....
+...
+
+vote for final operation under some threshold value
+if not able to find operation under threshold value thn ask for ask user to add new intents
+
+
+create
+	create a new bot
+	i want to lonch new bot
+update
+	update bot 
+deploy
+	deploy bot with id 123
+delete
+	deploy bot with id 123
+retrain
+
+other
+
+
+
+for existing:
+create dict of {opr:[intents]}
+if input line is having any intent associated with our dict operations thn return operation else check for best match using distance calculation under some % threashold else return "Didnt understand msg, can u elubrate more/add new operation"
+
+"add new operation"
+	enter operation(intent)
+		enter some example sentences
+		
+training....
+operation added!
+
+>>
+
+for new operation: provide intent(opr)
+and few sentences
+
+add new opr in opr dict {opr:[intents]}
+process all sentence and fetch intents and add to intent ist
+
+
+[
+- get some sentences
+- find synonyms and example lines
+]
