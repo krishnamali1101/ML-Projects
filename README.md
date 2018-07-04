@@ -6,6 +6,7 @@ This repo contains multiple projects on ML use case
 3. ChatBot-NLPEngine: Query Classifier 
 4. Taxonomy-data-river: Create tree like structure of documents based on their content 
 5. Important ML codes
+
         i)    Vector Similarity Measures: all ways to calculate distance between 2 vectors 
         
         ii)   Text Filter: Text filter(preprocessing) using NLTK
