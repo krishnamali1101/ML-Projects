@@ -8,7 +8,6 @@ This repo contains multiple projects on ML use case
 5. Important ML codes
 
         i)    Vector Similarity Measures: all ways to calculate distance between 2 vectors 
-        
         ii)   Text Filter: Text filter(preprocessing) using NLTK
         
         iii)  Decision Tree
